@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Isang Flower Shop - fresh bouquets, thoughtful arrangements, affordable prices."/>
+  <title>Isang Flower Shop • Fresh Bouquets</title>
+  <link rel="stylesheet" href="style.css" />
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header aria-label="Main header">
+    <div class="wrap header-inner">
+      <div class="brand" role="img" aria-label="Isang Flower Shop logo">
+        <!-- replace 'logo.jfif' with your logo file -->
+        <img src="logo.jfif" alt="Isang Flower Shop logo" class="logo-img"/>
+        <div class="brand-text">
+          <div class="shop-name">Isang Flower Shop</div>
+          <div class="tagline">Fresh bouquets • Affordable • Delivered with love</div>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home" data-target="home" aria-current="true">Home</a></li>
+          <li><a href="#about" data-target="about">About</a></li>
+          <li><a href="#products" data-target="products">Products</a></li>
+          <li><a href="#services" data-target="services">Services</a></li>
+          <li><a href="#reviews" data-target="reviews">Reviews</a></li>
+          <li><a href="#contact" data-target="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="mainContent">
+    <!-- HOME -->
+    <section id="home" class="section active" tabindex="-1" aria-labelledby="homeTitle">
+      <div class="hero-grid">
+        <div class="hero-left card--glass">
+          <h1 id="homeTitle">Welcome to <span>Isang Flower Shop</span></h1>
+          <p class="lead">Handpicked and lovingly arranged flowers for every moment — thoughtful gift for birthdays, celebrations, apologies, or simply to say you care.</p>
+
+          <div class="cta" role="group" aria-label="Primary actions">
+            <a class="btn primary" href="#" data-target="products">Shop Flowers</a>
+            <a class="btn ghost" href="#" data-target="contact">Contact Us</a>
+          </div>
+
+          <ul class="hero-features" style="list-style:none;margin-top:14px;color:var(--muted);padding-left:0">
+            <li><strong>Popular:</strong> Roses • Mixed Bouquets • Sunflowers</li>
+            <li><strong>Delivery:</strong> Same-day (within city)</li>
+          </ul>
+        </div>
+
+        <aside class="hero-right card--glass" aria-hidden="true">
+          <!-- Replace with your hero image -->
+          <img src="flower 6.jfif" alt="Beautiful bouquet">
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" tabindex="-1" aria-labelledby="aboutTitle">
+      <h2 id="aboutTitle">About Isang Flower Shop</h2>
+      <p class="muted">Isang Flower Shop started from a love of simple, beautiful flowers. We craft each bouquet with care and attention to meaning — whether it's a sweet surprise, a heartfelt sorry, or a joyful celebration. Our aim: fresh, affordable, and beautiful arrangements that make moments memorable.</p>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section" tabindex="-1" aria-labelledby="productsTitle">
+      <h2 id="productsTitle">Our Products</h2>
+      <div class="grid products" aria-live="polite">
+
+        <!-- Product 1 -->
+        <article class="product" aria-label="Blushing Roses">
+          <img src="flower 1.jpg" alt="Blushing Roses bouquet">
+          <h3>Flower 1 — Blushing Roses</h3>
+          <p class="desc muted">A soft pink rose bouquet—romantic and classic. Perfect for anniversaries and romantic gestures.</p>
+          <div class="product-row">
+            <div class="price">₱199</div>
+            <button class="order-btn" data-name="Blushing Roses" data-price="199">Order</button>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product" aria-label="Gentle Tulips">
+          <img src="flower 2.jpg" alt="Gentle Tulips bouquet">
+          <h3>Flower 2 — Gentle Tulips</h3>
+          <p class="desc muted">Bright and cheerful tulips arranged for everyday happiness.</p>
+          <div class="product-row">
+            <div class="price">₱199</div>
+            <button class="order-btn" data-name="Gentle Tulips" data-price="199">Order</button>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product" aria-label="Mixed Delight">
+          <img src="flower 3.jpg" alt="Mixed Delight bouquet">
+          <h3>Flower 3 — Mixed Delight</h3>
+          <p class="desc muted">A joyful mix of seasonal blooms — ideal for gifting friends and family.</p>
+          <div class="product-row">
+            <div class="price">₱199</div>
+            <button class="order-btn" data-name="Mixed Delight" data-price="199">Order</button>
+          </div>
+        </article>
+
+        <!-- Product 4 -->
+        <article class="product" aria-label="Sunny Sunflowers">
+          <img src="flower 4.jpg" alt="Sunny Sunflowers bouquet">
+          <h3>Flower 4 — Sunny Sunflowers</h3>
+          <p class="desc muted">Warm and cheerful sunflowers to brighten someone's day.</p>
+          <div class="product-row">
+            <div class="price">₱199</div>
+            <button class="order-btn" data-name="Sunny Sunflowers" data-price="199">Order</button>
+          </div>
+        </article>
+
+        <!-- Product 5 -->
+        <article class="product" aria-label="Soft Peonies">
+          <img src="flower 5.jfif" alt="Soft Peonies bouquet">
+          <h3>Flower 5 — Soft Peonies</h3>
+          <p class="desc muted">Luxurious peonies for special moments and elegant occasions.</p>
+          <div class="product-row">
+            <div class="price">₱199</div>
+            <button class="order-btn" data-name="Soft Peonies" data-price="199">Order</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section" tabindex="-1" aria-labelledby="servicesTitle">
+      <h2 id="servicesTitle">Services</h2>
+      <div class="services">
+        <div class="service">🚚 <strong>Same-day delivery</strong> (within city)</div>
+        <div class="service">💐 <strong>Bouquet customization</strong> — choose colors, size, add a note</div>
+        <div class="service">🎉 <strong>Event & table arrangements</strong> — weddings or parties</div>
+        <div class="service">📦 <strong>Secure packaging</strong> for fresh arrival</div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="section" tabindex="-1" aria-labelledby="reviewsTitle">
+      <h2 id="reviewsTitle">Customer Reviews</h2>
+      <div class="review-list">
+        <div class="review">"Ganda ng bouquet! Fresh and smells so nice." — <strong>Maria C.</strong></div>
+        <div class="review">"Fast delivery and friendly service. Recommended!" — <strong>Jenn L.</strong></div>
+        <div class="review">"Great arrangement for our event — looked stunning." — <strong>Rico P.</strong></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" tabindex="-1" aria-labelledby="contactTitle">
+      <h2 id="contactTitle">Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <p><strong>Location:</strong> 11851 Purok 1 Phase 6 Brgy 178 Sito 3 C.C.C</p>
+          <p><strong>Phone:</strong> 09919893135</p>
+          <p><strong>Email:</strong> mluisabutiguer@gmail.com</p>
+
+          <div class="socials" aria-label="Social links">
+            <a href="https://www.facebook.com/share/1CzP4aeHnu/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/riaa.aawi?igsh=cmpzcHg5aGc4MWx2" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.tiktok.com/@ygemsz?_t=ZS-90QKdZDn15k&_r=1" target="_blank" rel="noopener">TikTok</a>
+          </div>
+        </div>
+
+        
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer">
+      <div>© 2025 Isang Flower Shop • All Rights Reserved</div>
+      <div class="muted">Made with care • Fresh flowers daily</div>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top">↑ Top</button>
+
+  <script>
+    (function(){
+      // ---------- Section navigation (show only selected section) ----------
+      const navLinks = document.querySelectorAll('nav a[data-target]');
+      const sections = document.querySelectorAll('main .section');
+
+      function setActiveSection(id, focus = true) {
+        sections.forEach(s => {
+          if (s.id === id) {
+            s.classList.add('active');
+            if (focus) s.focus({preventScroll: true});
+          } else {
+            s.classList.remove('active');
+          }
+        });
+
+        // update aria-current on nav
+        navLinks.forEach(a => {
+          a.setAttribute('aria-current', a.dataset.target === id ? 'true' : 'false');
+        });
+
+        // update hash without jumping
+        history.replaceState(null, '', '#' + id);
+        // scroll top of main content smoothly
+        document.getElementById('mainContent').scrollIntoView({behavior:'smooth', block:'start'});
+      }
+
+      // initial: show section from hash or default 'home'
+      const initialId = location.hash ? location.hash.replace('#','') : 'home';
+      setTimeout(()=> setActiveSection(initialId, false), 50);
+
+      // click behavior for nav links and CTA buttons
+      navLinks.forEach(a => {
+        a.addEventListener('click', function(e){
+          e.preventDefault();
+          const target = this.dataset.target;
+          setActiveSection(target);
+        });
+      });
+      // CTA buttons inside page
+      document.querySelectorAll('[data-target]').forEach(el => {
+        el.addEventListener('click', function(e){
+          const tgt = this.dataset.target;
+          if (!tgt) return;
+          e.preventDefault();
+          setActiveSection(tgt);
+        });
+      });
+
+      // ---------- Back to Top ----------
+      const back = document.getElementById('backToTop');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) back.style.display = 'block';
+        else back.style.display = 'none';
+      });
+      back.addEventListener('click', ()=> window.scrollTo({top:0,behavior:'smooth'}));
+
+      // ---------- Order buttons (demo) ----------
+      document.querySelectorAll('.order-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const name = btn.dataset.name;
+          const price = btn.dataset.price;
+          const buyer = prompt(`You're ordering: ${name} (₱${price}).\nEnter your name to confirm:`);
+          if (buyer) {
+            alert(`Thanks ${buyer}! Your order for ${name} (₱${price}) has been received (demo). We'll contact you soon.`);
+          }
+        });
+      });
+
+      // ---------- Contact form (demo) ----------
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e){
+          e.preventDefault();
+          alert('Thank you! Message sent (demo).');
+          this.reset();
+        });
+      }
+
+      // ---------- Keyboard: allow Esc to go to Home ----------
+      document.addEventListener('keydown', (e)=>{
+        if (e.key === 'Escape') setActiveSection('home');
+      });
+
+      // Improve accessibility: focus management when hash changes externally
+      window.addEventListener('hashchange', ()=> {
+        const id = location.hash.replace('#','') || 'home';
+        setActiveSection(id, true);
+      });
+    })();
+  </script>
+</body>
+</html>
